@@ -26,12 +26,12 @@ openpyxl
 
 ```
 $ pip install -r requirements.txt
+$ alembic init alembic/dev
 ```
 
 .gitignore
 
 ```
 venv
-.env
 .env.*
 ```
