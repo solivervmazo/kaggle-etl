@@ -20,6 +20,7 @@ class ProjectModel(Base):
     """
 
     __tablename__ = "projects"
+    __table_args__ = {"extend_existing": True}
 
     id = Column(String(255), primary_key=True)
     source_app_id = Column(String(255), ForeignKey("source_apps.id"), nullable=False)

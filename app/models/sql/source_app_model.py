@@ -1,5 +1,3 @@
-import uuid
-import re
 from app.db.base import Base
 from sqlalchemy import Column, String, Boolean
 from sqlalchemy.orm import relationship
