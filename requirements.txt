@@ -1,0 +1,14 @@
+flask
+python-dotenv
+sqlalchemy
+Flask-Cors
+Flask-SQLAlchemy
+alembic
+mysqlclient
+faker
+uuid
+kaggle
+invoke
+pandas==2.0.3
+numpy==1.25.2
+openpyxl
